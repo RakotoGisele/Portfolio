@@ -8,4 +8,4 @@
 
 * Textures : 3D
 
-* Thème global du portfolio : Fantastique
+* Thème global du portfolio : Fantastique, nature
