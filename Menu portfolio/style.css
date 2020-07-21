@@ -1,0 +1,23 @@
+.nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-family: avenir, sans-serif;
+    border: 20px solid #ff3939;
+    background-color:#ff3939;
+}
+.nav li{
+    display: inline-block;
+    width: 250px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.nav li a{
+    display: block;
+    text-decoration: none;
+    color: #3b2929;
+}
+.nav li :hover{
+    color: khaki;
+}
