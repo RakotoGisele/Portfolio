@@ -1,23 +1,21 @@
-.nav ul{
+.menu {
     margin: 0px;
     padding: 0px;
-    list-style-type: none;
-    font-family: avenir, sans-serif;
-    border: 20px solid #ff3939;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color:#ff3939;
 }
-.nav li{
+.menu li {
     display: inline-block;
-    width: 250px;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
+    margin-left: 140px;
+    margin-right: 100px;
+    
 }
-.nav li a{
-    display: block;
+.menu_button:hover {
+    color: sandybrown;
+}
+a:link {
     text-decoration: none;
-    color: #3b2929;
-}
-.nav li :hover{
-    color: khaki;
+    color: #691c1f;
 }
