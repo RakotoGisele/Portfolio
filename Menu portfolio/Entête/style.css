@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(199, 64, 64);
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#ff3939;
+    background: linear-gradient(#ff3939, #792023);
+}
+.menu li {
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 140px;
+}
+.menu_button:hover {
+    color: sandybrown;
+}
+a:link {
+    text-decoration: none;
+    color: #691c1f;
+    font-weight: bold;
+}
+.logo {
+    float: right;
+    padding-right: 100px;
+}
