@@ -5,14 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu simple pour Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="petite_resolution.css" />
 </head>
 <body>
-        <ul class="menu">
-            <li><a class="menu_button" href="accueil.html">Accueil</a></li>
-            <li><a class="menu_button" href="presentation.html">Présentation</a></li>
-            <li><a class="menu_button" href="mescompetences.html">Compétences</a></li>
-            <li><a class="menu_button" href="mesprojets.html">Projets</a></li>
-            <li><a class="menu_button" href="contact.html">Contact</a></li>
-        </ul>
+    <ul class="menu">
+        <img class="logo" src="../menu portfolio/Teppanyaki(3).png" alt="logo" width="80" height="80">
+        <li>
+            <div class="dropdown">
+            <button><a class="menu_button" href="accueil.html">Accueil</a></button>
+            <div class="dropdown-child">
+                <a href="http://www.votresite.com/page1.html">Menu enfant 1</a>
+                <a href="http://www.votresite.com.com/page2.html">Menu enfant 2</a>
+                <a href="http://www.votresite.com.com/page3.html">Menu enfant 3</a>
+                <a href="http://www.votresite.com.com/page4.html">Menu enfant 4</a>
+                <a href="http://www.votresite.com.com/page5.html">Menu enfant 5</a>
+            </div>
+        </div>
+        </li>
+        <li><a class="menu_button" href="presentation.html">Présentation</a></li>
+        <li><a class="menu_button" href="mescompetences.html">Compétences</a></li>
+        <li><a class="menu_button" href="mesprojets.html">Projets</a></li>
+        <li><a class="menu_button" href="contact.html">Contact</a></li>
+    </ul>
 </body>
 </html>
