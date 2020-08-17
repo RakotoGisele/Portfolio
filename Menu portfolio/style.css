@@ -1,24 +1,42 @@
 body {
-    background-color: #691c1f;
+    background-color: rgb(199, 64, 64);
+    background-image: url(../menu\ portfolio\ v2/763111-cherry-blossom-backgrounds-1920x1080-laptop.jpg);
 }
 .menu {
-    margin: 0px;
-    padding: 0px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color:#ff3939;
+    background: linear-gradient(#ff3939, #792023);
 }
 .menu li {
     display: inline-block;
-    margin-left: 140px;
-    margin-right: 100px;
-    
+}
+.menu_button {
+    text-decoration: none;
+    color: #691c1f;
+    font-weight: bold;
 }
 .menu_button:hover {
     color: sandybrown;
 }
-a:link {
-    text-decoration: none;
-    color: #691c1f;
+/*Styles spécifiques pour les grands écrans type écrans d'ordinateur*/
+@media screen and (min-width: 980px){
+    .menu{
+        flex-flow: row wrap;
+    }
+    .menu{
+        flex-flow: row wrap;
+        margin: 0px 10px;
+    }
+}
+/*Styles spécifiques pour les écrans de taille moyenne type tablette*/
+@media screen and (min-width: 780px) and (max-width: 979px){
+    .conteneur-flex{
+        flex-flow: row wrap;
+    }
+    .sous-conteneur-flex{
+        margin: 0px 10px;
+    }
 }
