@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(199, 64, 64);
+    background-image: url(../menu\ portfolio\ v2/763111-cherry-blossom-backgrounds-1920x1080-laptop.jpg);
+}
+.menu {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient( #792023, #813546);
+    text-shadow: black 0.2em 0.2em 0.4em;
+}
+.menu li {
+    display: inline-block;
+}
+.menu_button {
+    text-decoration: none;
+    color: indianred;
+    font-weight: bold;
+}
+.menu_button:hover {
+    color: brown;
+}
+/*Styles spécifiques pour les grands écrans type écrans d'ordinateur*/
+@media screen and (min-width: 980px){
+    .menu{
+        flex-flow: row wrap;
+        margin: 0px 10px;
+    }
+    .menu{
+        flex-flow: row wrap;
+        margin: 0px 10px;
+    }
+}
+/*Styles spécifiques pour les écrans de taille moyenne type tablette*/
+@media screen and (min-width: 780px) and (max-width: 979px){
+    .conteneur-flex{
+        flex-flow: row wrap;
+    }
+    .sous-conteneur-flex{
+        margin: 0px 10px;
+    }
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: (3, 5fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding-top: 3%;
+    text-align: center;
+}
+.one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    border: 4px groove  #792023;
+    background: linear-gradient(#813546, #691c1f);
+    opacity: 0.9;
+    text-shadow: indianred 0.2em 0.2em 0.4em;
+    color: tomato;
+}
+.two { 
+    grid-column: 2 / 2;
+    grid-row: 1 / 6;
+    border: 4px groove  #792023;
+    background: linear-gradient(#813546,#691c1f);
+    opacity: 0.9;
+    text-shadow: indianred 0.2em 0.2em 0.4em;
+    color: tomato;
+}
+.three {
+    grid-column: 1;
+    grid-row: 3 / 8;
+    border: 4px groove  #792023;
+    background: linear-gradient(#813546,#691c1f);
+    opacity: 0.9;
+    text-shadow: indianred 0.2em 0.2em 0.4em;
+    color: tomato;
+}
+.four {
+    grid-column: 3;
+    grid-row: 1 / 3;
+    border: 4px groove  #792023;
+    background: linear-gradient(#813546, #691c1f);
+    opacity: 0.9;
+    text-shadow: indianred 0.2em 0.2em 0.4em;
+    color: tomato;
+}
+.five {
+    grid-column: 2;
+    grid-row: 6 / 8;
+    border: 4px groove  #792023;
+    background: linear-gradient(#813546, #691c1f);
+    opacity: 0.9;
+    text-shadow: indianred 0.2em 0.2em 0.4em;
+    color: tomato;
+}
+.six {
+    grid-column: 3;
+    grid-row: 3 / 8;
+    border: 4px groove  #792023;
+    background: linear-gradient(#813546,#691c1f);
+    opacity: 0.9;
+    text-shadow: indianred 0.2em 0.2em 0.4em;
+    color: tomato;
+}
+h1 {
+    text-align: center;
+    text-shadow: indianred 0.2em 0.2em 0.4em;
+    color: indianred;
+    color:linear-gradient(#813546, #691c1f);
+    text-shadow: indianred 0.2em 0.2em 0.4em;
+}
